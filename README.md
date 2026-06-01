@@ -24,24 +24,23 @@ Business Domain      -> B2B / Cross-border Commerce / 3PL / Operations Tools
 ```
 
 ## Professional Experience
-B2B Commerce Platform Engineering
+I currently work as a software engineer at GigaCloud, focusing on backend engineering for B2B commerce platform systems.
 
-I currently work as a software engineer on a B2B commerce platform, focusing on backend systems, cross-border business workflows, product data, seller operations, and internal operational tools.
+My work involves building and maintaining backend services that support cross-border business workflows, product and seller operations, data validation, and internal operational tools.
 
 My daily work includes:
 
-Building backend APIs for internal B2B systems
-Implementing business validation rules
-Supporting product, seller, and operational workflows
-Handling batch data processing and import/export scenarios
+Building backend APIs for internal B2B platform systems
+Implementing business validation rules and operational workflows
+Supporting product, seller, and cross-border commerce scenarios
+Handling batch data processing and import/export features
 Working with relational databases and SQL optimization
-Collaborating with product, QA, and business teams
+Collaborating with product, QA, and business teams to deliver reliable features
 
 Tech stack:
 
 Java / Spring Boot / MyBatis-Plus
-MySQL / OceanBase / Redis
-Message Queue
+MySQL / OceanBase / Redis / RabbitMQ / XXL-JOB
 Git / CI workflows
 
 This experience helps me understand how real B2B platforms operate, and it inspires me to build AI-powered tools for business workflow automation, data validation, and operational efficiency.
