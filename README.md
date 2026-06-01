@@ -91,11 +91,7 @@ Tools:        Git, Docker, Linux, GitHub Actions
 
 ## Connect with me
 
-* GitHub: `@your-github-username`
 * X / Twitter: `@your-x-handle`
-* Blog: `your-blog-url`
-* Email: `your-email@example.com`
+* Blog: `https://michikatsu.top/`
+* Email: `wongannelister@gmail.com`
 
----
-
-Building practical tools for real business problems.
