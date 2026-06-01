@@ -23,32 +23,28 @@ AI Engineering       -> AI Agent / RAG / Tool Calling / Workflow Automation
 Business Domain      -> B2B / Cross-border Commerce / 3PL / Operations Tools
 ```
 
-## Featured project
+## Professional Experience
+B2B Commerce Platform Engineering
 
-### ImportFlow AI
+I currently work as a software engineer on a B2B commerce platform, focusing on backend systems, cross-border business workflows, product data, seller operations, and internal operational tools.
 
-An AI-powered Excel import validation tool for B2B operations.
+My daily work includes:
 
-It helps operations teams validate product and order data before importing them into internal systems.
-
-Planned features:
-
-* Excel upload and parsing
-* Field mapping
-* SKU / HS Code / country code / price / weight validation
-* Explainable error reports
-* AI-generated correction suggestions
-* Exportable validation results
+Building backend APIs for internal B2B systems
+Implementing business validation rules
+Supporting product, seller, and operational workflows
+Handling batch data processing and import/export scenarios
+Working with relational databases and SQL optimization
+Collaborating with product, QA, and business teams
 
 Tech stack:
 
-```txt
-Next.js / React / TypeScript
-Hono or Nest.js
-PostgreSQL or MySQL
-AI SDK / OpenAI-compatible APIs
-Vercel / Railway / Docker
-```
+Java / Spring Boot / MyBatis-Plus
+MySQL / OceanBase / Redis
+Message Queue
+Git / CI workflows
+
+This experience helps me understand how real B2B platforms operate, and it inspires me to build AI-powered tools for business workflow automation, data validation, and operational efficiency.
 
 ## Why I build
 
