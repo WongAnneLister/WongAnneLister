@@ -12,6 +12,7 @@ I'm especially interested in building tools that turn messy business workflows i
 * Learning and practicing full-stack development with TypeScript
 * Exploring AI Agent, tool calling, RAG, and workflow automation
 * Turning real business pain points into practical software products
+* ⚽ Building AI-powered football analytics tools
 * Preparing for remote-friendly engineering opportunities
 
 ## Current focus
