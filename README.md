@@ -94,7 +94,3 @@ Tools:        Git, Docker, Linux, GitHub Actions
 * X / Twitter: `@coderspidergwen`
 * Blog: `https://blog.michikatsu.top/`
 * Email: `wongannelister@gmail.com`
-
-## 🤖 Codex Activity
-
-![Codex Activity](codex-heatmap.svg)
