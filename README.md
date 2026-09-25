@@ -91,6 +91,6 @@ Tools:        Git, Docker, Linux, GitHub Actions
 
 ## Connect with me
 
-* X / Twitter: `@coderspidergwen`
+* X / Twitter: `@WongAnneLister`
 * Blog: `https://blog.michikatsu.top/`
 * Email: `wongannelister@gmail.com`
