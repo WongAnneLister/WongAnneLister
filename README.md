@@ -1,4 +1,4 @@
-# Hi, I'm MichikatsuOwO | Wong Anne 👋
+# Hi, I'm Wong Anne 👋
 
 I'm a software engineer focused on **B2B commerce systems**, **backend platforms**, and **AI-powered internal tools**.
 
