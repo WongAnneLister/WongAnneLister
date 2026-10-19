@@ -1,96 +1,123 @@
 # Hi, I'm Wong Anne 👋
 
-I'm a software engineer focused on **B2B commerce systems**, **backend platforms**, and **AI-powered internal tools**.
+**Backend & Applied AI Engineer | Java · Python · Distributed Systems**
 
-Currently, I work on real-world B2B and cross-border commerce scenarios, including product data, seller validation, order workflows, compliance checks, and operational automation.
+I'm a software engineer building reliable backend systems and AI-powered applications.
 
-I'm especially interested in building tools that turn messy business workflows into reliable, automated systems.
+My professional experience is in **B2B commerce, cross-border logistics, and backend engineering**, where I work on order processing, data synchronization, asynchronous workflows, and operational reliability.
 
-## What I'm working on
+Outside of work, I build and open-source projects focused on **payment infrastructure, distributed systems, and production-oriented AI agents**.
 
-* Building AI-assisted tools for B2B operations
-* Learning and practicing full-stack development with TypeScript
-* Exploring AI Agent, tool calling, RAG, and workflow automation
-* Turning real business pain points into practical software products
-* ⚽ Building AI-powered football analytics tools
-* Preparing for remote-friendly engineering opportunities
+I'm particularly interested in engineering problems where correctness, reliability, and real-world constraints matter more than just making the happy path work.
 
-## Current focus
+## What I've Built
 
-```txt
-Backend Engineering  -> Java / Spring Boot / MyBatis / MySQL / Redis / MQ
-Full-stack           -> TypeScript / React / Next.js / Hono / Nest.js
-AI Engineering       -> AI Agent / RAG / Tool Calling / Workflow Automation
-Business Domain      -> B2B / Cross-border Commerce / 3PL / Operations Tools
-```
+### 💳 [Payments Ledger Platform](https://github.com/WongAnneLister/Payments-ledger-platform)
 
-## Professional Experience
-I currently work as a software engineer at GigaCloud, focusing on backend engineering for B2B commerce platform systems.
+**Java 21 · Spring Boot · PostgreSQL · Redis · Kafka · Stripe**
 
-My work involves building and maintaining backend services that support cross-border business workflows, product and seller operations, data validation, and internal operational tools.
+A payment processing and double-entry accounting platform built to explore the engineering challenges behind reliable financial systems.
 
-My daily work includes:
+- Designed an immutable double-entry ledger with database-enforced financial invariants and controlled balance updates.
+- Implemented payment and refund workflows, idempotency, webhook processing, reconciliation, payouts, and failure recovery.
+- Built a modular monolith with separate API and worker roles, transaction boundaries, and asynchronous merchant notifications.
+- Developed property-based and concurrency tests, including 42 fault-injection scenarios covering duplicate and out-of-order webhooks, provider timeouts, process crashes, and messaging failures.
+- Documented recovery procedures, architectural decisions, and verification evidence.
 
-Building backend APIs for internal B2B platform systems
-Implementing business validation rules and operational workflows
-Supporting product, seller, and cross-border commerce scenarios
-Handling batch data processing and import/export features
-Working with relational databases and SQL optimization
-Collaborating with product, QA, and business teams to deliver reliable features
+**Verification:** 748 regression tests passed in the documented PR20 run. Full performance acceptance remains incomplete.
 
-Tech stack:
+[Repository →](https://github.com/WongAnneLister/Payments-ledger-platform)
 
-Java / Spring Boot / MyBatis-Plus
-MySQL / OceanBase / Redis / RabbitMQ / XXL-JOB
-Git / CI workflows
+### 🎙️ [Interview Agent](https://github.com/WongAnneLister/Interview-Agent)
 
-This experience helps me understand how real B2B platforms operate, and it inspires me to build AI-powered tools for business workflow automation, data validation, and operational efficiency.
+**Python · FastAPI · LiveKit · Next.js · PostgreSQL · Langfuse**
 
-## Why I build
+An AI-powered voice mock-interview application designed around role-specific interviewing and evidence-based feedback.
 
-I believe software engineers should not only write code, but also understand business problems deeply.
+- Designed a two-layer architecture separating low-latency interviewing from background evaluation.
+- Built backend infrastructure for resume processing, structured data extraction, and user-scoped data access.
+- Implemented LLM usage tracking, cost estimation, budget checks, and observability integrations.
+- Added automated testing, database migrations, and reproducible development workflows.
 
-My long-term goal is to become a **full-stack product engineer** who can independently discover pain points, design systems, build products, and deliver real business value.
+**Status:** Active development (v0). Currently designed for local, single-user operation.
 
-I care about:
+[Repository →](https://github.com/WongAnneLister/Interview-Agent)
 
-* Practical engineering
-* Clean system design
-* Business-oriented problem solving
-* AI-native product workflows
-* Remote collaboration
-* Building in public
+### 📝 [Paperlane — Personal Blog](https://github.com/WongAnneLister/MyBlog)
 
-## Recent learning
+**Next.js · TypeScript · Hono · Docker**
 
-* React and modern frontend development
-* Next.js full-stack application architecture
-* Hono / Nest.js backend development
-* AI Agent design patterns
-* B2B SaaS product thinking
-* English communication for global engineering teams
+A self-hosted technical blog and portfolio.
 
-## Tech stack
+Built with a Next.js frontend, Hono API, S3-compatible object storage, and containerized deployment.
 
-```txt
-Languages:    Java, TypeScript, JavaScript, SQL
-Backend:      Spring Boot, MyBatis, Hono, Nest.js
-Frontend:     React, Next.js, Tailwind CSS
-Database:     MySQL, PostgreSQL, OceanBase, Redis
-AI:           RAG, Tool Calling, AI Agent, LLM APIs
-Tools:        Git, Docker, Linux, GitHub Actions
-```
+[Repository →](https://github.com/WongAnneLister/MyBlog) · [Visit Blog →](https://blog.michikatsu.top/)
 
-## 2026 Goals
+## Open Source Contributions
 
-* Build and launch 2–3 practical AI-powered B2B tools
-* Improve English communication for remote work
-* Contribute to open-source projects
-* Write more technical articles
-* Build a strong public portfolio around AI, B2B, and full-stack engineering
+I contribute bug fixes to open-source infrastructure and developer tools, particularly in AI systems and backend engineering.
 
-## Connect with me
+**Merged contributions**
 
-* X / Twitter: `@WongAnneLister`
-* Blog: `https://blog.michikatsu.top/`
-* Email: `wongannelister@gmail.com`
+- **[LiteLLM — Provider routing fix](https://github.com/BerriAI/litellm/pull/36346)**  
+  Fixed explicit provider handling across asynchronous image, audio, and realtime routes.
+
+- **[Alibaba Canal — Windows startup script fix](https://github.com/alibaba/canal/pull/5573)**  
+  Removed a duplicated string in the Windows startup script.
+
+I also explore and contribute fixes around LLM tool calling, MCP integration, and cross-platform compatibility.
+
+## Engineering Experience
+
+### Software Engineer @ GigaCloud
+
+**B2B Commerce · Cross-border Logistics · Backend Systems**
+
+I work on backend services supporting an international B2B commerce platform and its logistics and operational workflows.
+
+Some of the engineering problems I've worked on include:
+
+- **Large-scale data synchronization:** Built a recoverable synchronization workflow for European order history, processing approximately 1 million orders and over 3 million shipment records during a production migration.
+- **Asynchronous processing:** Used message queues, scheduled jobs, state transitions, and retry mechanisms to coordinate multi-step business workflows.
+- **Data consistency and recovery:** Worked with idempotency, failure handling, and reconciliation of business data across internal and external systems.
+- **Operational reliability:** Improved observability, error handling, and recovery processes for backend integrations.
+
+My primary production stack includes Java, Spring Boot, MyBatis-Plus, MySQL/OceanBase, Redis, RabbitMQ, and scheduled job infrastructure.
+
+## Technical Focus
+
+| Area | Technologies & Concepts |
+|---|---|
+| **Backend** | Java, Spring Boot, Python, FastAPI, REST APIs |
+| **Data & Messaging** | PostgreSQL, MySQL, OceanBase, Redis, RabbitMQ, Kafka |
+| **Distributed Systems** | Transactions, Idempotency, Outbox Pattern, State Machines, Failure Recovery |
+| **Applied AI** | RAG, AI Agents, Tool Calling, LLM APIs, Evaluation, Observability |
+| **Full-stack** | TypeScript, React, Next.js, Hono |
+| **Infrastructure** | Docker, Linux, GitHub Actions, Prometheus, Grafana |
+
+## How I Approach Engineering
+
+I care about building systems that remain understandable and recoverable when things go wrong.
+
+My approach emphasizes:
+
+- **Correctness before performance:** Define invariants and failure behavior before optimizing throughput.
+- **Explicit failure handling:** Design for retries, duplicates, partial failures, and uncertain outcomes.
+- **Evidence over assumptions:** Use automated tests, reproducible experiments, and observable metrics to validate behavior.
+- **Pragmatic architecture:** Choose complexity based on actual requirements, not trends.
+- **AI-assisted development with engineering ownership:** Use AI tools to accelerate implementation while treating design decisions, verification, and maintainability as engineering responsibilities.
+
+## Currently Exploring
+
+- Reliable AI agent infrastructure and LLM evaluation
+- Payment systems, financial ledgers, and distributed transactions
+- Open-source contributions to AI and developer infrastructure
+- Technical writing and sharing engineering lessons
+
+## Connect
+
+- 📝 **Blog:** [blog.michikatsu.top](https://blog.michikatsu.top/)
+- 𝕏 **X / Twitter:** [@WongAnneLister](https://x.com/WongAnneLister)
+- ✉️ **Email:** [wongannelister@gmail.com](mailto:wongannelister@gmail.com)
+
+**Open to remote backend engineering and applied AI engineering opportunities.**
