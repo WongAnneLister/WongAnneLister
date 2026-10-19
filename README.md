@@ -93,7 +93,7 @@ My primary production stack includes Java, Spring Boot, MyBatis-Plus, MySQL/Ocea
 | **Distributed Systems** | Transactions, Idempotency, Outbox Pattern, State Machines, Failure Recovery |
 | **Applied AI** | RAG, AI Agents, Tool Calling, LLM APIs, Evaluation, Observability |
 | **Full-stack** | TypeScript, React, Next.js, Hono |
-| **Infrastructure** | Docker, Linux, GitHub Actions, Prometheus, Grafana |
+| **Infrastructure** | Docker, Linux, GitHub Actions, CI/CD, Prometheus, Grafana |
 
 ## How I Approach Engineering
 
