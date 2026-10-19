@@ -69,7 +69,7 @@ I also explore and contribute fixes around LLM tool calling, MCP integration, an
 
 ## Engineering Experience
 
-### Software Engineer @ GigaCloud
+### Software Engineer @ GigaCloud (NASDAQ: GCT)
 
 **B2B Commerce · Cross-border Logistics · Backend Systems**
 
