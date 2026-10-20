@@ -71,7 +71,7 @@ I also explore and contribute fixes around LLM tool calling, MCP integration, an
 
 ### Software Engineer @ GigaCloud (NASDAQ: GCT)
 
-**B2B Commerce · Cross-border Logistics · Backend Systems**
+**B2B e-Commerce · Cross-border Logistics · Backend Systems**
 
 I work on backend services supporting an international B2B commerce platform and its logistics and operational workflows.
 
